@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    font-family: Arial,sans-serif;
+    
+    background-size: cover;
+    color:white;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-image: url("poster\ feedlink\ \(1\).jpg");
+.container{
+    padding:20px;
+}
+h1{
+    font-size: 2.5m;
+    margin-bottom: 20px;
+}
+.contact-buttons{
+    display:block;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-button{
+    background-color: #800000;
+    color:white;
+    padding:15px 200px;
+    margin:100px 0px ;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background 0.3s;
+    width:80%;
+    font-weight: bold;
+}
+.contact-button:hover{
+    background-color: #b30000;
+}
+
+@media (min-width:600px) {
+    .contact-button{
+        flex-direction: row;
+        justify-content: center;
+    }
+}
